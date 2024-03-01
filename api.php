@@ -6,9 +6,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $apiEndpoint = 'https://api.api-aries.online/v1/checkers/safe-url/';
 
     // Set the cURL headers
-    $headers = array(
-        'Type: 2',        // token type used (free)
-        'APITOKEN: WFVD-HNK2-X8AG-2IZU-VJON'   // API token
+    $headers = array( 
+        'Type: 1',        // token type used (free) // learn more: https://support.api-aries.online/hc/articles/1/3/3/email-checker
+        'APITOKEN: 111-111-111-111'   // API token // learn more: https://support.api-aries.online/hc/articles/1/3/3/email-checker
     );
 
     $curlOptions = array(

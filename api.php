@@ -7,8 +7,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Set the cURL headers
     $headers = array( 
-        'Type: 1',        // token type used (free) // learn more: https://support.api-aries.online/hc/articles/1/3/3/email-checker
-        'APITOKEN: 111-111-111-111'   // API token // learn more: https://support.api-aries.online/hc/articles/1/3/3/email-checker
+        'Type: 1',        // token type used (free) // learn more: https://support.api-aries.online/hc/articles/1/3/4/safe-url-api
+        'APITOKEN: 111-111-111-111'   // API token // learn more: https://support.api-aries.online/hc/articles/1/3/4/safe-url-api
     );
 
     $curlOptions = array(
